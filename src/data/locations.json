@@ -1,0 +1,9 @@
+{
+  "Maharashtra": ["Pune", "Nashik", "Satara", "Nagpur", "Aurangabad", "Solapur", "Kolhapur", "Jalgaon"],
+  "Punjab": ["Ludhiana", "Amritsar", "Jalandhar", "Patiala", "Bathinda", "Hoshiarpur"],
+  "Karnataka": ["Bangalore", "Mysore", "Hubli", "Mangalore", "Belgaum", "Bellary"],
+  "Gujarat": ["Ahmedabad", "Surat", "Vadodara", "Rajkot", "Bhavnagar", "Jamnagar"],
+  "Madhya Pradesh": ["Indore", "Bhopal", "Jabalpur", "Ujjain", "Gwalior", "Sagar"],
+  "Uttar Pradesh": ["Lucknow", "Kanpur", "Agra", "Varanasi", "Prayagraj", "Meerut"],
+  "Rajasthan": ["Jaipur", "Jodhpur", "Udaipur", "Kota", "Bikaner", "Ajmer"]
+}

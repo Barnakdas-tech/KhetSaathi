@@ -1,0 +1,46 @@
+[
+  {
+    "id": "soil-type-1",
+    "name": "Alluvial Soil",
+    "ph": 6.5,
+    "nitrogen": "High",
+    "phosphorus": "Medium",
+    "potassium": "Medium",
+    "organicMatter": "Good",
+    "moisture": "Medium",
+    "suitableCrops": ["Wheat", "Rice", "Sugarcane", "Cotton"]
+  },
+  {
+    "id": "soil-type-2",
+    "name": "Black Cotton Soil",
+    "ph": 7.2,
+    "nitrogen": "Low",
+    "phosphorus": "Low",
+    "potassium": "High",
+    "organicMatter": "Medium",
+    "moisture": "High",
+    "suitableCrops": ["Cotton", "Soybean", "Millets", "Tobacco"]
+  },
+  {
+    "id": "soil-type-3",
+    "name": "Red Soil",
+    "ph": 5.8,
+    "nitrogen": "Low",
+    "phosphorus": "Medium",
+    "potassium": "Medium",
+    "organicMatter": "Low",
+    "moisture": "Low",
+    "suitableCrops": ["Groundnut", "Ragi", "Potato", "Pulses"]
+  },
+  {
+    "id": "soil-type-4",
+    "name": "Laterite Soil",
+    "ph": 5.5,
+    "nitrogen": "Low",
+    "phosphorus": "Low",
+    "potassium": "Low",
+    "organicMatter": "Low",
+    "moisture": "Low",
+    "suitableCrops": ["Tea", "Coffee", "Rubber", "Cashew"]
+  }
+]

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand Palette - Soft Agricultural Greens */
+  --color-agri-50: #f2fbf5;
+  --color-agri-100: #e0f6e8;
+  --color-agri-200: #bcebc9;
+  --color-agri-300: #85da9f;
+  --color-agri-400: #4ec370;
+  --color-agri-500: #2eb85c;
+  --color-agri-600: #249a4a;
+  --color-agri-700: #1e7d3e;
+  --color-agri-800: #1a6433;
+  --color-agri-900: #16532b;
+
+  /* Typography */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Refined Shadows for Startup Feel */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-DEFAULT: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.05), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+
+  /* Generous Radii */
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+}
+
+@layer base {
+  html, body {
+    @apply bg-gray-50 text-gray-800 antialiased;
+    font-family: var(--font-sans);
+  }
+
+  /* Focus rings for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-agri-500 ring-offset-2 ring-offset-white;
+  }
+}
+
+@layer utilities {
+  /* Helpful layout utility often needed in MVPs */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
